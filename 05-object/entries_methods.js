@@ -5,8 +5,6 @@ const arr = {
 };
 
 console.log(Object.entries(arr));
-// console.log(Object.values(arr));
-// console.log(Object.keys(arr));
 
 const ent = Object.entries(arr);
 
