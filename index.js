@@ -1,16 +1,11 @@
-const arr = {
-  a: 1,
-  b: 2,
-  c: 3,
-};
+function map(name, callback) {
+  const fullName = name + ' Islam';
 
-console.log(Object.entries(arr));
-// console.log(Object.values(arr));
-// console.log(Object.keys(arr));
+  callback(fullName);
+  callback(fullName);
+  callback(fullName);
+}
 
-const ent = Object.entries(arr);
-
-ent.forEach((item) => {
-  const [key, value] = item;
-  console.log(value);
+map('Nayem', function (value) {
+  console.log(value.toUpperCase());
 });
