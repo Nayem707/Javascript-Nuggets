@@ -33,7 +33,7 @@ function updateInventory(currentInventory, newInventory) {
       acc[itemName] = (acc[itemName] || 0) + quantity;
       return acc;
     },
-    {}
+    {},
   );
 
   // Step 3: Convert to sorted 2D array
