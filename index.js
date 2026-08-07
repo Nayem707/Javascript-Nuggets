@@ -9,3 +9,8 @@ function map(name, callback) {
 map("Nayem", function (value) {
   console.log(value.toUpperCase());
 });
+
+// Output:
+// NAYEM ISLAM
+// NAYEM ISLAM
+// NAYEM ISLAM
