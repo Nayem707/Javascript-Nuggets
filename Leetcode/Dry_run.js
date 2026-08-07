@@ -21,3 +21,16 @@
 // x = x * 2;
 
 // console.log(x);
+
+let sum = 0;
+
+sum = sum + 1; // sum = 0 + 1 = 1
+sum = sum + 2; // sum = 1 + 2 = 3
+sum = sum + 3; // sum = 3 + 3 = 6
+sum = sum + 4; // sum = 6 + 4 = 10
+sum = sum + 5; // sum = 10 + 5 = 15
+
+console.log(sum);
+// for (let i = 0; i <= 5; i++) {
+//   sum = sum + i;
+// }
